@@ -24,7 +24,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server_sock:
     
     def winner(choice1, choice2):
         if choice1 == choice2:
-            return "Oavgjort"
+            return "Det blev Oavgjort"
         elif (choice1 == "sten" and choice2 == "sax") or\
             (choice1 == "sax" and choice2 == "påse") or \
             (choice1 == "påse" and choice2 == "sten"):
